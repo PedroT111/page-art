@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.conteinerNav{
+    width: 40%;
+    position: absolute;
+    right: 0;
+    margin-right: 18px;
+}
+.container-header{
+    height: 90px;
+}
+.nav{
+    position: absolute;
+    right: 0;
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .conteinerNav{
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+    .nav{
+        font-size: 18px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .navItem{
+        border-bottom: 3px white solid;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .navbar1{
+        height: auto;
+        z-index: 10;
+    }
+}
