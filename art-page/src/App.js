@@ -7,20 +7,26 @@ import './Styles/index.css'
 import "./Styles/header.css"
 import "./Styles/footer.css"
 import "./Styles/home.css"
+import "./Styles/obras.css"
+import "./Styles/gallery.css"
 
 import Home from "./Screens/home";
+import Obras from "./Screens/obras";
+import Contact from "./Screens/contact";
+import Gallery from "./Screens/gallery";
 
 
 function App() {
   return (
-      <Container fluid className="cont">
+      <Container  className="p-0">
         <Router>
           <Header/>
           <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/obras"/>
-          <Route exact path="/contacto"/>
+          <Route exact path="/obras" component={Obras}/>
+          <Route exact path="/contacto" component={Contact}/>
           <Route exact path="/bio"/>
+          <Route exact path="/galeria" component={Gallery}/>
           </Switch>
           <Footer/>
         </Router>

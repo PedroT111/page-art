@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import Carrousel from "../Components/Carrousel";
 import img1 from "../img/foto1.png";
 import img2 from "../img/foto2bis.png";
-import img3 from "../img/foto3.png"
+import img3 from "../img/foto3bis.png"
 
 const Items = [
     {
@@ -17,10 +17,10 @@ const Items = [
 ]
 const Home = () => {
     return(
-        <Container className="cont-carrousel">
-            <Row>
-                <Col className="h-auto">
-                   <Carrousel className="carrousel" items={Items}/>
+        <Container className="cont-home p-0">
+            <Row >
+                <Col className="p-0">
+                   <Carrousel items={Items}/>
                 </Col>
             </Row>
         </Container>

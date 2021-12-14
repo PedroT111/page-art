@@ -32,11 +32,11 @@ const Header = () => {
     const toggleNavbar = () => setIsOpen(!isOpen);
 
     return(
-       <Container className="container-header">
-           <Row>
-               <Col>
-                <Navbar color="light" light  expand="md" className="navbar1">
-                    <NavbarBrand className="logo" href="/"><img className="w-75" src={logo} alt="" /></NavbarBrand>
+       <Container className="container-header p-0">
+           <Row className="row align-items-center">
+               <Col className="p-0">
+                <Navbar light  expand="md" className="navbar1">
+                    <NavbarBrand className="logo" href="/"><img className="logo-img" src={logo} alt="" /></NavbarBrand>
                     <NavbarToggler onClick={toggleNavbar} />
                     <Collapse isOpen={isOpen} navbar className="conteinerNav">
                         <Nav className=" nav" navbar>

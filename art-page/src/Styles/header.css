@@ -15,9 +15,15 @@
     right: 0;
     font-size: 22px;
 }
+.logo-img{
+    width: 75%;
+}
 
 
 @media only screen and (max-width: 600px) {
+    .container-header{
+        height: 70px;
+    }    
     .conteinerNav{
         width: 100%;
         margin: 0;
@@ -29,12 +35,25 @@
         position: relative;
     }
     .navItem{
-        border-bottom: 3px white solid;
-        width: 100%;
-        margin-top: 10px;
+        border-bottom: 3px rgb(255, 251, 240) solid;
+        width: 100%;        
     }
     .navbar1{
-        height: auto;
         z-index: 10;
+        padding-left: 0;
+        border-bottom: 0.5px black solid;
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 75%;
+    }
+    .container-fluid{
+        padding: 0;
+        display: flex;
+    }
+    .logo-img{
+        width: 100%;
     }
 }

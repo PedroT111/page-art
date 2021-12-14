@@ -1,0 +1,6 @@
+.img-obras{
+    transition: all .5s ease-in-out;
+}
+.img-obras:hover{
+    transform: scale(1.05);
+}
