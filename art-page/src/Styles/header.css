@@ -13,16 +13,19 @@
 .nav{
     position: absolute;
     right: 0;
-    font-size: 22px;
+    font-size: 1.2em;
 }
 .logo-img{
     width: 75%;
+    position: relative;
+    left: 0;
 }
+
 
 
 @media only screen and (max-width: 600px) {
     .container-header{
-        height: 70px;
+        height: initial;
     }    
     .conteinerNav{
         width: 100%;
@@ -39,7 +42,6 @@
         width: 100%;        
     }
     .navbar1{
-        z-index: 10;
         padding-left: 0;
         border-bottom: 0.5px black solid;
         background-color: white;

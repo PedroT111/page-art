@@ -17,9 +17,9 @@ const Items = [
 ]
 const Home = () => {
     return(
-        <Container className="cont-home p-0">
+        <Container>
             <Row >
-                <Col className="p-0">
+                <Col>
                    <Carrousel items={Items}/>
                 </Col>
             </Row>

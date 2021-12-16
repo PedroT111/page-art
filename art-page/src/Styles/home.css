@@ -1,21 +1,18 @@
-.carrousel{
+.img-carrousel{
+    height: 500px;
     width: 100%;
 }
-.img-carrousel{
+.carrousel{
     width: 100%;
-    height: 500px;
 }
 @media only screen and (max-width: 600px){
     *{
         box-sizing: border-box;
     }
-    .carrousel{
-        width: 100%;
-    }
     .img-carrousel{
-        height: 300px;
-    }
-    .col-carrousel{
+        height: initial;
         margin-top: 20px;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
     }
 }

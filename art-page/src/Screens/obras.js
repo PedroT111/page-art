@@ -41,9 +41,9 @@ const Items = [
 ]
 const Obras = () => {
     return(
-        <Container className="mt-2">
-            <Row>
-                <Col>
+        <Container className="p-0">
+            <Row className="row-obras d-flex align-items-center p-0 m-0">
+                <Col className="p-0 m-0">
                 <ImgList itemData = {Items} />
                 </Col>
             </Row>

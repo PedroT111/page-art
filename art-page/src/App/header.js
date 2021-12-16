@@ -6,24 +6,24 @@ import logo from "../img/logo.png"
 const Items = [
     {
         name: "Home",
-        link: ""
+        link: "/"
 
     },
     {
         name: "Obras",
-        link:""
+        link:"/obras"
     },
     {
         name: "Exhibiciones",
-        link: ""
+        link: "/galeria"
     },
     {
         name: "Bio",
-        link: ""
+        link: "/bio"
     },
     {
         name: "Contacto",
-        link: ""
+        link: "/contacto"
     }
 ];
 const Header = () => {

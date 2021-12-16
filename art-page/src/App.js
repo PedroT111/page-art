@@ -9,6 +9,7 @@ import "./Styles/footer.css"
 import "./Styles/home.css"
 import "./Styles/obras.css"
 import "./Styles/gallery.css"
+import "./Styles/contact.css"
 
 import Home from "./Screens/home";
 import Obras from "./Screens/obras";

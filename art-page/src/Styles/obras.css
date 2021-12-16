@@ -4,3 +4,17 @@
 .img-obras:hover{
     transform: scale(1.05);
 }
+.masonry-img{
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px){
+    .img-obras{
+        transition: none;
+    }
+    .img-obras:hover{
+        transform: none;
+    }
+    .box-masonry{
+        margin-bottom: 4em;
+    }
+}

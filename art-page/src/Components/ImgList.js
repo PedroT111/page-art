@@ -1,12 +1,13 @@
 import React from 'react';
-import { ImageList, ImageListItem } from '@mui/material';
+import { Stack, Box } from '@mui/material';
+import { Masonry } from '@mui/lab';
 
 const ImgList = ({itemData}) => {
     return(
-        <>
-        <ImageList variant="masonry" cols={3} gap={8}>
+        <Box className="box-masonry">
+        <Masonry  className= "masonry-img p-0 m-0" columns={{xs:1, sm:3}} spacing={{xs:1}}>
             {itemData.map((item) => (
-                <ImageListItem key={item.img}>
+                <Stack key={item.img}>
                 <img
                     src={`${item.img}?w=248&fit=crop&auto=format`}
                     srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -14,10 +15,10 @@ const ImgList = ({itemData}) => {
                     loading="lazy"
                     className="img-obras"
                 />
-                </ImageListItem>
+                </Stack>
             ))}
-        </ImageList>
-        </>
+        </Masonry>
+        </Box>
     );
 }
 

@@ -25,9 +25,9 @@ const Items = [
 const Contact = () => {
     return(
         <Container className="mb-4" >
-            <Row className="d-flex">
+            <Row className="contact-row">
                     <Col className="bg-primary p-0">
-                    <img src={img1} className="w-100 h-100"></img>
+                    <img src={img1} alt="img" className="img-contact w-100 h-100"></img>
                     </Col>
                     <Col className="bg-light p-0">
                         <TarjetaContact/>                      
